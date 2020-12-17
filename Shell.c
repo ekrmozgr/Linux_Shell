@@ -263,7 +263,7 @@ void* doJobs(void* args)
 int main(int argc, char* argv[])
 {
     char *input;
-    prompt();
+    
     if(argc > 2)
     {
         fprintf(stderr, "Cok fazla baslangic argumani mevut\nOrnek kullanim :\n1- ./Shell ornek.txt\n2- ./Shell\n");
@@ -278,7 +278,7 @@ int main(int argc, char* argv[])
             fprintf(stderr, "Batch dosyasi mevcut degil veya acilamiyor\n");
             exit(EXIT_FAILURE);
         }      
-
+        prompt();   
         char temp[INPUT_SIZE+1];
         char *commands[512];
         int z = 0;
@@ -368,6 +368,7 @@ int main(int argc, char* argv[])
     }
     else
     {
+        prompt();  
         struct termios old_termios, new_termios;
         tcgetattr(0,&old_termios);
         new_termios             = old_termios;
