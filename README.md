@@ -1,5 +1,7 @@
 # Linux_Shell
 
+Girilen komutlar eşzamanlı(paralel) olarak çalışmaktadırlar.
+
 	BATCH MOD
 
 	a) Eğer başlangıçta ./Shell ornek.txt  harici mesela  ./Shell ornek.txt ornek2.txt  gibi bir çalıştırma denenirse program çok fazla başlangıç argümanı gibi bir hata mesajı yazdırarak sonlanır.
