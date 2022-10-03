@@ -3,6 +3,7 @@
 The entered commands run in parallel.
 
 	BATCH MODE
+	usage : ./Shell filename
 
 	a) If an attempt is made to run something other than ./shell example.txt, such as ./shell example.txt example2.txt, at startup, the program will terminate with an error message such as too many startup arguments.
 	b) If the given txt cannot be found or opened, the program will give an error message and terminate.
@@ -11,6 +12,7 @@ The entered commands run in parallel.
 
 
 	INTERACTIVE MODE
+	usage : ./Shell
 
 	a) Pressing ENTER on the empty command line does not print an error message and does not affect the program.
 	b) If the "quit" command is entered, the program terminates without an error message.
