@@ -1,4 +1,4 @@
-# Linux_Shell
+# linux-shell
 
 The entered commands run in parallel.
 
