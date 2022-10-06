@@ -1,6 +1,11 @@
-# linux-shell
+# Linux Command Shell
 
-The entered commands run in parallel.
+
+
+
+
+	The entered commands run in parallel
+
 
 	BATCH MODE
 	usage : ./Shell filename
