@@ -49,6 +49,7 @@
 	   
 	d) If one line starts with semicolon(';') or there is no command used between two semicolons(';') , this is a syntax error for
 	   our program and the program continues to run by printing a corresponding message.
+	   
 	e) If the command to be run cannot be executed or does not exist, an appropriate error message is printed and the program
 	   continues to run.
 	   
