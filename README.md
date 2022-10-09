@@ -4,7 +4,7 @@
 
 
 
- The entered commands run in parallel
+ The entered commands run in parallel 
 
 
 #### BATCH MODE
